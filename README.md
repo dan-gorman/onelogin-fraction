@@ -30,11 +30,14 @@ Expressions may be specified two ways:
      next line, preceded by "= ".  Prompts will continue until either an empty line or
      an EOF (^Z on Windows, ^D on Linux) is entered.
 
-  2) An expression may also be provided as a command line argument.  The expression 
-     will be written out (preceded by "? ") with the result following with the
-     preceding "= ".
+  2) An expression may also be provided as a command line argument.  The entire
+     expression must be wrapped in quote marks.  Under Linux, the multiplication sign
+     (*) must be escaped with a backslash (\) in order to work properly.
 
-Note: 
+     The expression will be written out (preceded by "? ") with the result following
+     prefixed by a preceding "= ".
+
+Notes: 
   Fractions are modeled using a pair of 32-bit signed integers for numerator and
   denominator respectively.  Values that would require use of integers outside of this
   32-bit range (for either the numerator, denominator or both), either as an input 

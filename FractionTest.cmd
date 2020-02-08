@@ -1,0 +1,8 @@
+@ECHO OFF
+@SETLOCAL
+SET BASEDIR=%~dp0
+SET RELAPPJAR=out\artifacts\FractionTest_jar\FractionTest.jar
+SET ABSAPPJAR=%BASEDIR%\%RELAPPJAR%
+FOR %%I in ("%ABSAPPJAR%") DO SET ABSAPPJAR=%~I
+java -jar %ABSAPPJAR% $*
+@ENDLOCAL
