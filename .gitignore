@@ -1,0 +1,55 @@
+# Output
+.gwt/
+logs/
+target/
+tsd/*/build
+tsd/build
+**/npm-debug.log
+.gradle
+dependency-reduced-pom.xml
+pom.xml.next
+pom.xml.releaseBackup
+pom.xml.tag
+pom.xml.versionsBackup
+release.properties
+
+# Eclipse
+.metadata/
+**/.externalToolBuilders/
+**/RemoteSystemsTempFiles/
+**/bin/
+**/eclipse-bin/
+**/.classpath
+maven-eclipse.xml
+
+# IntelliJ
+**/.settings/*
+*.class
+*.iml
+.idea
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.ear
+*.jar
+*.nar
+*.rar
+*.tar.gz
+*.war
+*.zip
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# Maven #
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
